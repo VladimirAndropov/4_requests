@@ -106,6 +106,142 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "https://ruz.fa.ru/api/search?term=ауд.3310&type=auditorium",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://ruz.fa.ru/api/search?term=ауд.3310&type=auditorium",
+					"protocol": "https",
+					"host": [
+						"ruz",
+						"fa",
+						"ru"
+					],
+					"path": [
+						"api",
+						"search"
+					],
+					"query": [
+						{
+							"key": "term",
+							"value": "ауд.3310"
+						},
+						{
+							"key": "type",
+							"value": "auditorium"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://ruz.fa.ru/api/schedule/auditorium/2921?start=2024.02.21&finish=2024.02.21&lng=1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://ruz.fa.ru/api/schedule/auditorium/2921?start=2024.02.21&finish=2024.02.21&lng=1",
+					"protocol": "https",
+					"host": [
+						"ruz",
+						"fa",
+						"ru"
+					],
+					"path": [
+						"api",
+						"schedule",
+						"auditorium",
+						"2921"
+					],
+					"query": [
+						{
+							"key": "start",
+							"value": "2024.02.21"
+						},
+						{
+							"key": "finish",
+							"value": "2024.02.21"
+						},
+						{
+							"key": "lng",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://ruz.fa.ru/api/search?term=Вешняковский проезд&type=building",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://ruz.fa.ru/api/search?term=Вешняковский проезд&type=building",
+					"protocol": "https",
+					"host": [
+						"ruz",
+						"fa",
+						"ru"
+					],
+					"path": [
+						"api",
+						"search"
+					],
+					"query": [
+						{
+							"key": "term",
+							"value": "Вешняковский проезд"
+						},
+						{
+							"key": "type",
+							"value": "building"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://ruz.fa.ru/api/schedule/building/51?start=2024.02.21&finish=2024.02.21&lng=1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://ruz.fa.ru/api/schedule/building/51?start=2024.02.21&finish=2024.02.21&lng=1",
+					"protocol": "https",
+					"host": [
+						"ruz",
+						"fa",
+						"ru"
+					],
+					"path": [
+						"api",
+						"schedule",
+						"building",
+						"51"
+					],
+					"query": [
+						{
+							"key": "start",
+							"value": "2024.02.21"
+						},
+						{
+							"key": "finish",
+							"value": "2024.02.21"
+						},
+						{
+							"key": "lng",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
